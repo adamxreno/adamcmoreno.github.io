@@ -17,11 +17,6 @@
 
         html {
             scroll-behavior: smooth;
-            background-color: #0a0a0a;
-            background-image: linear-gradient(rgba(10, 10, 10, 0.75), rgba(10, 10, 10, 0.75)), url('https://i.imgur.com/l918LfK.jpeg');
-            background-position: top center;
-            background-size: cover;
-            background-attachment: scroll;
         }
 
         @keyframes fadeIn {
@@ -230,9 +225,10 @@
 
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', sans-serif;
-            background: transparent;
+            background: url('https://i.imgur.com/l918LfK.jpeg') top center/cover no-repeat;
             color: #ffffff;
             line-height: 1.7;
+            min-height: 100vh;
         }
 
         header {
